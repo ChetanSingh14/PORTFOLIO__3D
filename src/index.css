@@ -114,6 +114,55 @@
   -webkit-text-fill-color: transparent;
 }
 
+.purple-cyan-gradient {
+  background: linear-gradient(135deg, #a855f7 0%, #06b6d4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.emerald-cyan-gradient {
+  background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.amber-pink-gradient {
+  background: linear-gradient(135deg, #f59e0b 0%, #ec4899 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glass-card {
+  background: rgba(17, 25, 40, 0.75);
+  backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card-hover:hover {
+  background: rgba(23, 32, 54, 0.85);
+  border-color: rgba(145, 94, 255, 0.4);
+  box-shadow: 0 10px 30px -10px rgba(145, 94, 255, 0.3);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050816;
+}
+::-webkit-scrollbar-thumb {
+  background: #232631;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #915eff;
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;

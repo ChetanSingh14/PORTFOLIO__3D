@@ -29,6 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Devquery from "./Devquery.png";
+import HAMS from "./HAMS.png";
+import chetanSingh from "./chetan_singh.jpg";
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  Devquery,
+  HAMS,
+  chetanSingh,
 };

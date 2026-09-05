@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <rect width="128" height="128" rx="36" fill="url(#fav_bg)"/>
+  <rect x="6" y="6" width="116" height="116" rx="30" border="2" stroke="url(#fav_stroke)" stroke-width="3" stroke-opacity="0.4"/>
+  <text x="64" y="80" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="52" fill="#FFFFFF" text-anchor="middle" letter-spacing="-2">CS</text>
+  <circle cx="98" cy="30" r="10" fill="#00CEA8" />
+  <defs>
+    <linearGradient id="fav_bg" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="0.5" stop-color="#151030"/>
+      <stop offset="1" stop-color="#915EFF"/>
+    </linearGradient>
+    <linearGradient id="fav_stroke" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#915EFF"/>
+      <stop offset="1" stop-color="#00CEA8"/>
+    </linearGradient>
+  </defs>
+</svg>

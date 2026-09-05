@@ -5,7 +5,10 @@ import About from './About';
 import Tech from './Tech';
 import Experience from './Experience';
 import Works from './Works';
+import Education from './Education';
 import Contact from './Contact';
+import Footer from './Footer';
+import CustomCursor from './CustomCursor';
 
 export {
   Hero,
@@ -14,9 +17,12 @@ export {
   Tech,
   Experience,
   Works,
+  Education,
   Contact,
+  Footer,
+  CustomCursor,
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas
-}
+};
